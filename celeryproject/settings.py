@@ -137,9 +137,9 @@ CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
 
 # Mail Configuration
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST='sandbox.smtp.mailtrap.io'
-EMAIL_PORT=587
-EMAIL_HOST_USER='7039d430c113aa'
-EMAIL_HOST_PASSWORD='f59d099bd8a2c1'
+EMAIL_HOST='mailtrap host_name'
+EMAIL_PORT='your mailtrap port'
+EMAIL_HOST_USER='your mailtrap user_name'
+EMAIL_HOST_PASSWORD='your mailtrap host_password'
 EMAIL_USE_TLS=True
 EMAIL_USE_SSL=False
